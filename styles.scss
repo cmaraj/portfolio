@@ -573,11 +573,16 @@ $webBG: rgb(213, 213, 213);
   position: absolute;
   z-index: 0;
   opacity: 0.03;
+  display: block;
 }
 
 @media (max-width: 450px) {
   .web-header-list {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .key-logo {
+    display: none;
   }
 
   .web-header-info-grid img {
